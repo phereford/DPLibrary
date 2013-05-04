@@ -7,6 +7,7 @@ module DPLibrary
 
   autoload :Base, 'DPLibrary/base'
   autoload :Item, 'DPLibrary/item'
+  autoload :Collection, 'DPLibrary/collection'
 
   class << self
     attr_accessor :api_key
