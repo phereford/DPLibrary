@@ -45,6 +45,7 @@ the most sense.
 
 ## ToDo's
 * Write Tests
+* Create fixtures for tests
 * Write up usage documentation
 * Dry up lib files
 
