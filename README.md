@@ -1,6 +1,8 @@
+[![Code Climate](https://codeclimate.com/github/phereford/DPLibrary.png)](https://codeclimate.com/github/phereford/DPLibrary)
 # DPLibrary
 
-TODO: Write a gem description
+A simple ruby API wrapper around the [Digital Public Library of
+America](http://http://dp.la/info/developers/)
 
 ## Installation
 
@@ -16,9 +18,29 @@ Or install it yourself as:
 
     $ gem install DPLibrary
 
-## Usage
+## Configuration
 
-TODO: Write usage instructions here
+First step: Acquire an API KEY from dp.la. To do this, simply run the
+following command from your terminal (replace YOUR_EMAIL with your
+email):
+
+```
+curl -v -XPOST http://api.dp.la/v2/api_key/YOUR_EMAIL@example.com
+```
+
+Second step: before making any api calls you will need to set your api
+key in your application. To do that, run:
+
+```
+DPLibrary.api_key = '<API KEY GOES HERE>'
+```
+
+## Usages
+
+## ToDo's
+* Write Tests
+* Write up usage documentation
+* Dry up lib files
 
 ## Contributing
 
