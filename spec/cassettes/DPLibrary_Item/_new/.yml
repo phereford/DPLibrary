@@ -1,0 +1,407 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.dp.la/v2/items?api_key=bb9ec047f463cd046c8a26c4237a3349&q=chicken
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.7
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - nginx/1.1.19
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sat, 04 May 2013 14:45:39 GMT
+      status:
+      - 200 OK
+      x-request-id:
+      - a76715392f8c37db54ed405e690de4de
+      transfer-encoding:
+      - chunked
+      x-runtime:
+      - '0.038133'
+      etag:
+      - ! '"4c50858ec78356677fcc7d0d2cb7c1d0"'
+      connection:
+      - close
+      x-ua-compatible:
+      - IE=Edge,chrome=1
+    body:
+      encoding: US-ASCII
+      string: ! '{"count":752,"start":0,"limit":10,"docs":[{"_rev":"1-6849f37b68385026eb3a73d58bcd624d","ingestDate":"2013-04-12T00:14:48.121953","@context":{"edm":"http://www.europeana.eu/schemas/edm/","isShownAt":"edm:isShownAt","dpla":"http://dp.la/terms/","dataProvider":"edm:dataProvider","aggregatedDigitalResource":"dpla:aggregatedDigitalResource","state":"dpla:state","hasView":"edm:hasView","provider":"edm:provider","collection":"dpla:aggregation","object":"edm:object","stateLocatedIn":"dpla:stateLocatedIn","begin":{"@type":"xsd:date","@id":"dpla:dateRangeStart"},"@vocab":"http://purl.org/dc/terms/","LCSH":"http://id.loc.gov/authorities/subjects","sourceResource":"edm:sourceResource","name":"xsd:string","coordinates":"dpla:coordinates","end":{"@type":"xsd:date","@id":"dpla:dateRangeEnd"},"originalRecord":"dpla:originalRecord"},"id":"8ce4474d8b1eefffaa5ce4ce34369c43","isShownAt":"http://www.biodiversitylibrary.org/item/79580","_id":"bhl--http://www.biodiversitylibrary.org/item/79580","dataProvider":"Library
+        of Congress","sourceResource":{"title":"The chicken cholera preventive and
+        exterminator, a treatise giving the cause, symptoms, prevention, and extermination
+        of chicken cholera","description":"","subject":[{"name":"Chicken cholera"}],"language":[{"iso639_3":"eng","name":"English"}],"format":"Book","collection":{"id":"24087df2c58f149a8167a9589cffd830","title":"Volumes","@id":"http://dp.la/api/collections/bhl--LoC","name":"Library
+        of Congress"},"type":"text","publisher":"Wooster [Ohio]Republican steam press
+        print,1875","creator":"Hill, A. J"},"provider":{"@id":"http://dp.la/api/contributor/bhl","name":"Biodiversity
+        Heritage Library"},"@id":"http://dp.la/api/items/8ce4474d8b1eefffaa5ce4ce34369c43","ingestType":"item","originalRecord":{"id":"oai:biodiversitylibrary.org:item/79580","title":"The
+        chicken cholera preventive and exterminator, a treatise giving the cause,
+        symptoms, prevention, and extermination of chicken cholera; ","handle":"http://www.biodiversitylibrary.org/item/79580","setSpec":"item","contributor":"Library
+        of Congress","description":"","subject":"Chicken cholera","datestamp":"2012-06-22T02:33:26Z","label":"The
+        chicken cholera preventive and exterminator, a treatise giving the cause,
+        symptoms, prevention, and extermination of chicken cholera; ","language":"English","type":["text","Book"],"creator":"Hill,
+        A. J.      ","publisher":"Wooster [Ohio]Republican steam press print,1875."},"score":1.9722701},{"_rev":"1-dc90c28da9eeff1fe1c85c7d64f383de","ingestDate":"2013-04-12T00:41:49.022568","@context":{"edm":"http://www.europeana.eu/schemas/edm/","isShownAt":"edm:isShownAt","dpla":"http://dp.la/terms/","dataProvider":"edm:dataProvider","aggregatedDigitalResource":"dpla:aggregatedDigitalResource","state":"dpla:state","hasView":"edm:hasView","provider":"edm:provider","collection":"dpla:aggregation","object":"edm:object","stateLocatedIn":"dpla:stateLocatedIn","begin":{"@type":"xsd:date","@id":"dpla:dateRangeStart"},"@vocab":"http://purl.org/dc/terms/","LCSH":"http://id.loc.gov/authorities/subjects","sourceResource":"edm:sourceResource","name":"xsd:string","coordinates":"dpla:coordinates","end":{"@type":"xsd:date","@id":"dpla:dateRangeEnd"},"originalRecord":"dpla:originalRecord"},"id":"50fb97da5b96c4eae8b8c73c1576d2b7","isShownAt":"http://www.biodiversitylibrary.org/item/93963","_id":"bhl--http://www.biodiversitylibrary.org/item/93963","dataProvider":"Library
+        of Congress","sourceResource":{"title":"The chicken cholera preventive and
+        exterminator, a treatise giving the cause, symptoms, prevention, and extermination
+        of chicken cholera","description":"","subject":[{"name":"Chicken cholera"}],"language":[{"iso639_3":"eng","name":"English"}],"format":"Book","collection":{"id":"24087df2c58f149a8167a9589cffd830","title":"Volumes","@id":"http://dp.la/api/collections/bhl--LoC","name":"Library
+        of Congress"},"type":"text","publisher":"West Salem, Ohio,Buckeye farmer print,1875","creator":"Hill,
+        A. J"},"provider":{"@id":"http://dp.la/api/contributor/bhl","name":"Biodiversity
+        Heritage Library"},"@id":"http://dp.la/api/items/50fb97da5b96c4eae8b8c73c1576d2b7","ingestType":"item","originalRecord":{"id":"oai:biodiversitylibrary.org:item/93963","title":"The
+        chicken cholera preventive and exterminator, a treatise giving the cause,
+        symptoms, prevention, and extermination of chicken cholera. ","handle":"http://www.biodiversitylibrary.org/item/93963","setSpec":"item","contributor":"Library
+        of Congress","description":"","subject":"Chicken cholera","datestamp":"2012-10-09T02:04:19Z","label":"The
+        chicken cholera preventive and exterminator, a treatise giving the cause,
+        symptoms, prevention, and extermination of chicken cholera. ","language":"English","type":["text","Book"],"creator":"Hill,
+        A. J.      ","publisher":"West Salem, Ohio,Buckeye farmer print,1875."},"score":1.9663649},{"ingestDate":"2013-04-14T14:52:03.431974","_rev":"1-312517cac73575e4fb860766cea44a5e","id":"3735587153432cd17e3f978bab08fa1a","@context":{"edm":"http://www.europeana.eu/schemas/edm/","isShownAt":"edm:isShownAt","dpla":"http://dp.la/terms/","dataProvider":"edm:dataProvider","aggregatedDigitalResource":"dpla:aggregatedDigitalResource","state":"dpla:state","hasView":"edm:hasView","provider":"edm:provider","collection":"dpla:aggregation","object":"edm:object","stateLocatedIn":"dpla:stateLocatedIn","begin":{"@type":"xsd:date","@id":"dpla:dateRangeStart"},"@vocab":"http://purl.org/dc/terms/","LCSH":"http://id.loc.gov/authorities/subjects","sourceResource":"edm:sourceResource","name":"xsd:string","coordinates":"dpla:coordinates","end":{"@type":"xsd:date","@id":"dpla:end"},"originalRecord":"dpla:originalRecord"},"isShownAt":"http://thoth.library.utah.edu:1701/primo_library/libweb/action/dlDisplay.do?vid=MWDL&afterPDS=true&docId=digcoll_uuu_11uspace/1728","_id":"mwdl--digcoll_uuu_11uspace/1728","dataProvider":"University
+        of Utah","sourceResource":{"title":"Characterization of the chicken GCAP gene
+        array and analyses of GCAP1, GCAP2, and GC1 gene expression in normal and
+        rd chicken pineal","description":["Journal Article","PURPOSE: This study had
+        three objectives: (1) to characterize the structures of the chicken GCAP1
+        and GCAP2 genes; (2) to determine if GCAP1, GCAP2, and GC1 genes are expressed
+        in chicken pineal gland; (3) if GC1 is expressed in chicken pineal, to determine
+        if the GC1 null mutation carried by the retinal degeneration (rd) chicken
+        is associated with degenerative changes within the pineal glands of these
+        animals. METHODS: GCAP1 and GCAP2 gene structures were determined by analyses
+        of chicken cosmid and cDNA clones. The putative transcription start points
+        for these genes were determined using 5''-RACE. GCAP1, GCAP2 and GC1 transcripts
+        were analyzed using Northern blot and RT-PCR. Routine light microscopy was
+        used to examine pineal morphology. RESULTS: Chicken GCAP1 and GCAP2 genes
+        are arranged in a tail-to-tail array. Each protein is encoded by 4 exons that
+        are interrupted by 3 introns of variable length, the positions of which are
+        identical within each gene. The putative transcription start points for GCAP1
+        and GCAP2 are 314 and 243 bases upstream of the translation start codons of
+        these genes, respectively. As in retina, GCAP1, GCAP2 and GC1 genes are expressed
+        in the chicken pineal. Although the GC1 null mutation is present in both the
+        retina and pineal of the rd chicken, only the retina appears to undergo degeneration.
+        CONCLUSIONS: The identical arrangement of chicken, human, and mouse GCAP1/2
+        genes suggests that these genes originated from an ancient gene duplication/inversion
+        event that occurred during evolution prior to vertebrate diversification.
+        The expression of GC1, GCAP1, and GCAP2 in chicken pineal is consistent with
+        the hypothesis that chicken pineal contains a functional phototransduction
+        cascade. The absence of cellular degeneration in the rd pineal gland suggests
+        that GC1 is not critical for pineal cell survival."],"subject":[{"name":"Molecular
+        Sequence Data"},{"name":"Promoter Regions (Genetics)"},{"name":"Retinal Degeneration"},{"name":"Calcium-Binding
+        Proteins"},{"name":"Guanylate Cyclase"},{"name":"Pineal Gland"}],"rights":"(c)
+        Molecular Vision","isPartOf":"University of Utah UScholar Works","language":[{"iso639_3":"eng","name":"English"}],"collection":{"id":"fcd9663d450b786d938cc53ae732fa13","title":"Mwdl","@id":"http://dp.la/api/collections/fcd9663d450b786d938cc53ae732fa13"},"stateLocatedIn":[{"name":"UT"}],"date":{"displayDate":"1999","end":"1999","begin":"1999"},"type":"text","identifier":"http://content.lib.utah.edu/u?/uspace,1728","creator":["Baehr,
+        Wolfgang","Semple-Rowland, S L","Larkin, P","Bronson, J D","Nykamp, K","Streit,
+        W J"]},"provider":{"@id":"http://dp.la/api/contributor/mwdl","name":"Mountain
+        West Digital Library"},"ingestType":"item","@id":"http://dp.la/api/items/3735587153432cd17e3f978bab08fa1a","object":"http://content.lib.utah.edu/utils/getthumbnail/collection/uspace/id/1728","originalRecord":{"PrimoNMBib":{"record":{"control":{"originalsourceid":"1728","sourceid":"digcoll_uuu_11","addsrcrecordid":"uuu-11-205-1251","sourcedbandrecordid":"uspace","sourceformat":"Digital
+        Entity","recordid":"digcoll_uuu_11uspace/1728","sourcesystem":"Other","sourcerecordid":"uspace/1728"},"sort":{"creationdate":"1999","author":"Baehr,
+        W","title":"Characterization of the chicken GCAP gene array and analyses of
+        GCAP1, GCAP2, and GC1 gene expression in normal and rd chicken pineal"},"addata":{"date":"1999","pub":"Molecular
+        Vision"},"search":{"lsr04":"1251","addtitle":"Semple-Rowland SL, Larkin P,
+        Bronson JD, Nykamp K, Streit WJ, Baehr W. (1999). Characterization of the
+        chicken GCAP gene array and analyses of GCAP1, GCAP2, and GC1 gene expression
+        in normal and rd chicken pineal. Molecular Vision, 5(14).","lsr13":"University
+        of Utah UScholar Works","lsr12":"University of Utah","lsr03":"205","lsr02":"11","lsr01":"uuu","scope":["uu","mw","ir"],"subject":["Molecular
+        Sequence Data; Promoter Regions (Genetics); Retinal Degeneration","Calcium-Binding
+        Proteins; Guanylate Cyclase; Pineal Gland"],"lsr10":"University of Utah J.
+        Willard Marriott Library CONTENTdm OAI Server Repository","addsrcrecordid":"uuu-11-205-1251","creationdate":"1999","creatorcontrib":["Baehr,
+        Wolfgang; Semple-Rowland, S L; Larkin, P; Bronson, J D; Nykamp, K; Streit,
+        W J;","School of Medicine; Ophthalmology"],"title":"Characterization of the
+        chicken GCAP gene array and analyses of GCAP1, GCAP2, and GC1 gene expression
+        in normal and rd chicken pineal","description":["Journal Article","PURPOSE:
+        This study had three objectives: (1) to characterize the structures of the
+        chicken GCAP1 and GCAP2 genes; (2) to determine if GCAP1, GCAP2, and GC1 genes
+        are expressed in chicken pineal gland; (3) if GC1 is expressed in chicken
+        pineal, to determine if the GC1 null mutation carried by the retinal degeneration
+        (rd) chicken is associated with degenerative changes within the pineal glands
+        of these animals. METHODS: GCAP1 and GCAP2 gene structures were determined
+        by analyses of chicken cosmid and cDNA clones. The putative transcription
+        start points for these genes were determined using 5''-RACE. GCAP1, GCAP2
+        and GC1 transcripts were analyzed using Northern blot and RT-PCR. Routine
+        light microscopy was used to examine pineal morphology. RESULTS: Chicken GCAP1
+        and GCAP2 genes are arranged in a tail-to-tail array. Each protein is encoded
+        by 4 exons that are interrupted by 3 introns of variable length, the positions
+        of which are identical within each gene. The putative transcription start
+        points for GCAP1 and GCAP2 are 314 and 243 bases upstream of the translation
+        start codons of these genes, respectively. As in retina, GCAP1, GCAP2 and
+        GC1 genes are expressed in the chicken pineal. Although the GC1 null mutation
+        is present in both the retina and pineal of the rd chicken, only the retina
+        appears to undergo degeneration. CONCLUSIONS: The identical arrangement of
+        chicken, human, and mouse GCAP1/2 genes suggests that these genes originated
+        from an ancient gene duplication/inversion event that occurred during evolution
+        prior to vertebrate diversification. The expression of GC1, GCAP1, and GCAP2
+        in chicken pineal is consistent with the hypothesis that chicken pineal contains
+        a functional phototransduction cascade. The absence of cellular degeneration
+        in the rd pineal gland suggests that GC1 is not critical for pineal cell survival."],"sourceid":"digcoll_uuu_11","lsr09":"University
+        of Utah, J. Willard Marriott Library","recordid":"digcoll_uuu_11uspace/1728","rsrctype":"text"},"facets":{"genre":"unknown","prefilter":"text","topic":["Molecular
+        Sequence Data","Promoter Regions (Genetics)","Retinal Degeneration","Calcium-Binding
+        Proteins","Guanylate Cyclase","Pineal Gland"],"toplevel":"online_resources","lfc01":"University
+        of Utah UScholar Works","format":"Unknown","lfc02":"University of Utah","collection":"Digital
+        Collections","lfc03":"University of Utah, J. Willard Marriott Library","creationdate":"1999","lfc04":"University
+        of Utah J. Willard Marriott Library CONTENTdm OAI Server Repository","creatorcontrib":["Baehr,
+        Wolfgang","Semple-Rowland, S L","Larkin, P","Bronson, J D","Nykamp, K","Streit,
+        W J"],"frbrtype":"6","frbrgroupid":"120209995","language":"eng","rsrctype":"text"},"links":{"linktorsrc":"$$Tdigcoll_uuu_11_linktores$$DOpen
+        resource in a new window","thumbnail":"$$Tdigcoll_uuu_11_linktothumb$$DSee
+        Thumbnail"},"display":{"subject":"Molecular Sequence Data; Promoter Regions
+        (Genetics); Retinal Degeneration; Calcium-Binding Proteins; Guanylate Cyclase;
+        Pineal Gland","rights":"(c) Molecular Vision","format":"Unknown","type":"Text","creationdate":"1999","lds17":"text","lds18":"text;","creator":"Baehr,
+        Wolfgang; Semple-Rowland, S L; Larkin, P; Bronson, J D; Nykamp, K; Streit,
+        W J;","publisher":"Molecular Vision","title":"Characterization of the chicken
+        GCAP gene array and analyses of GCAP1, GCAP2, and GC1 gene expression in normal
+        and rd chicken pineal","lds02":"University of Utah J. Willard Marriott Library
+        CONTENTdm OAI Server Repository","lds11":"Semple-Rowland SL, Larkin P, Bronson
+        JD, Nykamp K, Streit WJ, Baehr W. (1999). Characterization of the chicken
+        GCAP gene array and analyses of GCAP1, GCAP2, and GC1 gene expression in normal
+        and rd chicken pineal. Molecular Vision, 5(14).","lds01":"University of Utah,
+        J. Willard Marriott Library","lds04":"University of Utah UScholar Works","description":["Journal
+        Article","PURPOSE: This study had three objectives: (1) to characterize the
+        structures of the chicken GCAP1 and GCAP2 genes; (2) to determine if GCAP1,
+        GCAP2, and GC1 genes are expressed in chicken pineal gland; (3) if GC1 is
+        expressed in chicken pineal, to determine if the GC1 null mutation carried
+        by the retinal degeneration (rd) chicken is associated with degenerative changes
+        within the pineal glands of these animals. METHODS: GCAP1 and GCAP2 gene structures
+        were determined by analyses of chicken cosmid and cDNA clones. The putative
+        transcription start points for these genes were determined using 5''-RACE.
+        GCAP1, GCAP2 and GC1 transcripts"],"contributor":"School of Medicine; Ophthalmology","lds03":"University
+        of Utah","language":"eng","identifier":["ir-main,1725","http://content.lib.utah.edu/cdm/ref/collection/uspace/id/1728"]},"delivery":{"delcategory":"Online
+        Resource","institution":"MWDL"},"ranking":{"booster2":"1","booster1":"1"}},"xmlns":"http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib"},"LINKS":{"linktorsrc":"http://content.lib.utah.edu/u?/uspace,1728","thumbnail":"http://content.lib.utah.edu/utils/getthumbnail/collection/uspace/id/1728"},"RANK":"0.7996294","_id":"digcoll_uuu_11uspace/1728","SEARCH_ENGINE_TYPE":"Local
+        Search Engine","ID":"4257481","SEARCH_ENGINE":"Local Search Engine","GETIT":{"deliveryCategory":"Online
+        Resource","GetIt2":"http://sfx7.exlibrisgroup.com/uutah?ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&ctx_tim=2013-04-14T12%3A50%3A28IST&url_ver=Z39.88-2004&url_ctx_fmt=infofi/fmt:kev:mtx:ctx&rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-digcoll_uuu_11&rft_val_fmt=info:ofi/fmt:kev:mtx:&rft.genre=&rft.atitle=&rft.jtitle=&rft.btitle=&rft.aulast=&rft.auinit=&rft.auinit1=&rft.auinitm=&rft.ausuffix=&rft.au=&rft.aucorp=&rft.volume=&rft.issue=&rft.part=&rft.quarter=&rft.ssn=&rft.spage=&rft.epage=&rft.pages=&rft.artnum=&rft.issn=&rft.eissn=&rft.isbn=&rft.sici=&rft.coden=&rft_id=info:doi/&rft.object_id=&rft.eisbn=&rft_dat=<digcoll_uuu_11>uspace/2581</digcoll_uuu_11>&rft_id=info:oai/","GetIt1":"http://content.lib.utah.edu/u?/uspace,2581"},"NO":"682439"},"score":1.7962033},{"ingestDate":"2013-04-14T13:52:17.999527","_rev":"1-0c6beac1d5189a189cf6ff23c083f038","id":"b8fade1c0f42cba49e390ddc3a240b7b","@context":{"edm":"http://www.europeana.eu/schemas/edm/","isShownAt":"edm:isShownAt","dpla":"http://dp.la/terms/","dataProvider":"edm:dataProvider","aggregatedDigitalResource":"dpla:aggregatedDigitalResource","state":"dpla:state","hasView":"edm:hasView","provider":"edm:provider","collection":"dpla:aggregation","object":"edm:object","stateLocatedIn":"dpla:stateLocatedIn","begin":{"@type":"xsd:date","@id":"dpla:dateRangeStart"},"@vocab":"http://purl.org/dc/terms/","LCSH":"http://id.loc.gov/authorities/subjects","sourceResource":"edm:sourceResource","name":"xsd:string","coordinates":"dpla:coordinates","end":{"@type":"xsd:date","@id":"dpla:end"},"originalRecord":"dpla:originalRecord"},"isShownAt":"http://thoth.library.utah.edu:1701/primo_library/libweb/action/dlDisplay.do?vid=MWDL&afterPDS=true&docId=digcoll_uuu_11USHS_Class/14874","_id":"mwdl--digcoll_uuu_11USHS_Class/14874","dataProvider":"Utah
+        State Historical Society","sourceResource":{"title":"Chicken Chalet Drive-In
+        P.1; No. 29967","extent":"8.9 inches x 3.5 inches","description":"29967 Sign
+        for the Chicken Chalet Drive-In. Chicken Chalet, Inc. Located at 258 W. 33rd.
+        S., June 25, 1959. Shipler #73185.","subject":[{"name":"Restaurants"}],"rights":"Digital
+        Image \u00a9 2008 Utah State Historical Society. All Rights Reserved.","relation":["Relation:
+        725.7","Is part of: Classified Photograph Collection"],"collection":{"id":"fcd9663d450b786d938cc53ae732fa13","title":"Mwdl","@id":"http://dp.la/api/collections/fcd9663d450b786d938cc53ae732fa13"},"stateLocatedIn":[{"name":"UT"}],"isPartOf":"Utah
+        State Historical Society Classified Photograph Collection","type":"image","identifier":"http://content.lib.utah.edu/u?/USHS_Class,14874"},"provider":{"@id":"http://dp.la/api/contributor/mwdl","name":"Mountain
+        West Digital Library"},"ingestType":"item","@id":"http://dp.la/api/items/b8fade1c0f42cba49e390ddc3a240b7b","object":"http://content.lib.utah.edu/utils/getthumbnail/collection/USHS_Class/id/14874","originalRecord":{"PrimoNMBib":{"record":{"control":{"originalsourceid":"14874","sourceid":"digcoll_uuu_11","addsrcrecordid":"uuu-11-119-1038","sourcedbandrecordid":"USHS_Class","sourceformat":"Digital
+        Entity","recordid":"digcoll_uuu_11USHS_Class/14874","sourcesystem":"Other","sourcerecordid":"USHS_Class/14874"},"sort":{"title":"Chicken
+        Chalet Drive-In P.1"},"addata":{"date":"2009","pub":"Utah State Historical
+        Society"},"search":{"lsr04":"1038","lsr13":"Utah State Historical Society
+        Classified Photograph Collection","addtitle":["Relation: 725.7","Is part of:
+        Classified Photograph Collection","No. 29967"],"lsr12":"Utah State Historical
+        Society","lsr03":"119","lsr15":"Classified Photograph Collection","lsr02":"11","lsr01":"uuu","scope":["uu","mw"],"subject":"Restaurants","lsr10":"University
+        of Utah J. Willard Marriott Library CONTENTdm OAI Server Repository","addsrcrecordid":"uuu-11-119-1038","creatorcontrib":"Digitized
+        by: J. Willard Marriott Library, University of Utah","title":"Chicken Chalet
+        Drive-In P.1","description":"29967 Sign for the Chicken Chalet Drive-In. Chicken
+        Chalet, Inc. Located at 258 W. 33rd. S., June 25, 1959. Shipler #73185.","sourceid":"digcoll_uuu_11","lsr09":"University
+        of Utah, J. Willard Marriott Library","recordid":"digcoll_uuu_11USHS_Class/14874","rsrctype":"images"},"facets":{"genre":"unknown","topic":"Restaurants","prefilter":"images","toplevel":"online_resources","frbrtype":"6","frbrgroupid":"120376525","lfc01":"Utah
+        State Historical Society Classified Photograph Collection","collection":"Digital
+        Collections","lfc02":"Utah State Historical Society","format":"image/jp2","lfc03":"University
+        of Utah, J. Willard Marriott Library","lfc04":"University of Utah J. Willard
+        Marriott Library CONTENTdm OAI Server Repository","rsrctype":"images"},"links":{"linktorsrc":"$$Tdigcoll_uuu_11_linktores$$DOpen
+        resource in a new window","thumbnail":"$$Tdigcoll_uuu_11_linktothumb$$DSee
+        Thumbnail"},"display":{"subject":"Restaurants","relation":["Relation: 725.7","Is
+        part of: Classified Photograph Collection"],"rights":"Digital Image \u00a9
+        2008 Utah State Historical Society. All Rights Reserved.","format":"image/jp2","type":"Image","lds17":"image","lds05":"8.9
+        inches x 3.5 inches","lds18":"image","publisher":"Utah State Historical Society","title":"Chicken
+        Chalet Drive-In P.1","lds12":"Print Photograph","lds02":"University of Utah
+        J. Willard Marriott Library CONTENTdm OAI Server Repository","lds10":"No.
+        29967","lds01":"University of Utah, J. Willard Marriott Library","contributor":"Digitized
+        by: J. Willard Marriott Library, University of Utah","lds04":"Utah State Historical
+        Society Classified Photograph Collection","description":"29967 Sign for the
+        Chicken Chalet Drive-In. Chicken Chalet, Inc. Located at 258 W. 33rd. S.,
+        June 25, 1959. Shipler #73185.","lds03":"Utah State Historical Society","identifier":["39222001696553.tif","http://content.lib.utah.edu/cdm/ref/collection/USHS_Class/id/14874"]},"delivery":{"delcategory":"Online
+        Resource","institution":"MWDL"},"ranking":{"booster2":"1","booster1":"1"}},"xmlns":"http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib"},"LINKS":{"linktorsrc":"http://content.lib.utah.edu/u?/USHS_Class,14874","thumbnail":"http://content.lib.utah.edu/utils/getthumbnail/collection/USHS_Class/id/14874"},"RANK":"0.7996294","_id":"digcoll_uuu_11USHS_Class/14874","SEARCH_ENGINE_TYPE":"Local
+        Search Engine","ID":"4217936","SEARCH_ENGINE":"Local Search Engine","GETIT":{"deliveryCategory":"Online
+        Resource","GetIt2":"http://sfx7.exlibrisgroup.com/uutah?ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&ctx_tim=2013-04-14T11%3A50%3A52IST&url_ver=Z39.88-2004&url_ctx_fmt=infofi/fmt:kev:mtx:ctx&rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-digcoll_uuu_11&rft_val_fmt=info:ofi/fmt:kev:mtx:&rft.genre=&rft.atitle=&rft.jtitle=&rft.btitle=&rft.aulast=&rft.auinit=&rft.auinit1=&rft.auinitm=&rft.ausuffix=&rft.au=&rft.aucorp=&rft.volume=&rft.issue=&rft.part=&rft.quarter=&rft.ssn=&rft.spage=&rft.epage=&rft.pages=&rft.artnum=&rft.issn=&rft.eissn=&rft.isbn=&rft.sici=&rft.coden=&rft_id=info:doi/&rft.object_id=&rft.eisbn=&rft_dat=<digcoll_uuu_11>USHS_Class/9141</digcoll_uuu_11>&rft_id=info:oai/","GetIt1":"http://content.lib.utah.edu/u?/USHS_Class,9141"},"NO":"655302"},"score":1.4927405},{"_rev":"4-fdb735ba3d733b2c9a13a73e3d36ff3c","ingestDate":"2013-04-29T21:58:44.641105","@context":{"edm":"http://www.europeana.eu/schemas/edm/","isShownAt":"edm:isShownAt","dpla":"http://dp.la/terms/","dataProvider":"edm:dataProvider","aggregatedDigitalResource":"dpla:aggregatedDigitalResource","state":"dpla:state","hasView":"edm:hasView","provider":"edm:provider","collection":"dpla:aggregation","object":"edm:object","stateLocatedIn":"dpla:stateLocatedIn","begin":{"@type":"xsd:date","@id":"dpla:dateRangeStart"},"@vocab":"http://purl.org/dc/terms/","LCSH":"http://id.loc.gov/authorities/subjects","sourceResource":"edm:sourceResource","name":"xsd:string","coordinates":"dpla:coordinates","end":{"@type":"xsd:date","@id":"dpla:dateRangeEnd"},"originalRecord":"dpla:originalRecord"},"id":"84afd4fa7c022fe85abe068896a513c6","isShownAt":"http://openvault.wgbh.org/catalog/ntw-mla000240-opening-sequence-from-lulu-smith
+        -the-chicken-that-ate-columbus  ","_id":"digital-commonwealth--http://digitalcommonwealth.org/items/show/64372","dataProvider":"WGBH","sourceResource":{"subject":[{"name":"Audience
+        participation television programs Comedy Drama Parodies Television--Production
+        and direction"}],"description":"This short excerpt from the opening sequence
+        of \"Lulu Smith: The Chicken that Ate Columbus\" features the narrator posing
+        a set of questions to the audience, and introducing the viewer to the QUBE
+        cable system in Ohio. [*DURING THE COURSE OF THE OPEN VAULT WEBSITE PROJECT,
+        THIS STREAMING CLIP WAS REMOVED FROM BOTH THE NTW & OPEN VAULT WEBSITE DUE
+        TO RIGHTS ISSUES*]","title":"Opening sequence from \"Lulu Smith: The Chicken
+        that Ate Columbus\"","collection":{"id":"285ca7b8845da5e6316e6558fac491b4","title":"WGBH
+        OpenVault","@id":"http://dp.la/api/collections/285ca7b8845da5e6316e6558fac491b4"}},"provider":{"@id":"http://dp.la/api/contributor/digital-commonwealth","name":"Digital
+        Commonwealth"},"ingestType":"item","@id":"http://dp.la/api/items/84afd4fa7c022fe85abe068896a513c6","originalRecord":{"id":"oai:digitalcommonwealth.org:64372","title":"Opening
+        sequence from \"Lulu Smith: The Chicken that Ate Columbus\"  ","handle":["http://openvault.wgbh.org/catalog/ntw-mla000240-opening-sequence-from-lulu-smith
+        -the-chicken-that-ate-columbus  ","http://digitalcommonwealth.org/items/show/64372"],"setSpec":"215","subject":"Audience
+        participation television programs Comedy Drama Parodies Television--Production
+        and direction  ","description":"This short excerpt from the opening sequence
+        of \"Lulu Smith: The Chicken that Ate Columbus\" features the narrator posing
+        a set of questions to the audience, and introducing the viewer to the QUBE
+        cable system in Ohio. [*DURING THE COURSE OF THE OPEN VAULT WEBSITE PROJECT,
+        THIS STREAMING CLIP WAS REMOVED FROM BOTH THE NTW & OPEN VAULT WEBSITE DUE
+        TO RIGHTS ISSUES*] ","label":"Opening sequence from \"Lulu Smith: The Chicken
+        that Ate Columbus\"  ","datestamp":"2013-02-24T19:38:00Z"},"score":1.4901004},{"ingestDate":"2013-04-14T14:21:40.804780","_rev":"1-d20da73e8131e18cf797e9f415b102a7","id":"32170d053b4d808550b2cec21ee90af9","@context":{"edm":"http://www.europeana.eu/schemas/edm/","isShownAt":"edm:isShownAt","dpla":"http://dp.la/terms/","dataProvider":"edm:dataProvider","aggregatedDigitalResource":"dpla:aggregatedDigitalResource","state":"dpla:state","hasView":"edm:hasView","provider":"edm:provider","collection":"dpla:aggregation","object":"edm:object","stateLocatedIn":"dpla:stateLocatedIn","begin":{"@type":"xsd:date","@id":"dpla:dateRangeStart"},"@vocab":"http://purl.org/dc/terms/","LCSH":"http://id.loc.gov/authorities/subjects","sourceResource":"edm:sourceResource","name":"xsd:string","coordinates":"dpla:coordinates","end":{"@type":"xsd:date","@id":"dpla:end"},"originalRecord":"dpla:originalRecord"},"isShownAt":"http://thoth.library.utah.edu:1701/primo_library/libweb/action/dlDisplay.do?vid=MWDL&afterPDS=true&docId=digcoll_uuu_11VE_Photos/435","_id":"mwdl--digcoll_uuu_11VE_Photos/435","dataProvider":"Uintah
+        County (UT) Library","sourceResource":{"title":"Chicken Farm Visit","spatial":[{"name":"Vernal
+        (Utah)"}],"description":"From left, Bry Stringham, Ken Stringham, and DeMar
+        Dudley visit the Dudley chicken farm on an annual Chamber of Commerce farm
+        tour.","subject":[{"name":"Farming"},{"name":"Dudley Chicken Farm"}],"rights":"Digital
+        image, copyright 2003 Uintah County Library","isPartOf":"Vernal (UT) Express
+        Photograph Collection","language":[{"iso639_3":"eng","name":"English"}],"collection":{"id":"fcd9663d450b786d938cc53ae732fa13","title":"Mwdl","@id":"http://dp.la/api/collections/fcd9663d450b786d938cc53ae732fa13"},"stateLocatedIn":[{"name":"UT"}],"date":{"displayDate":"1961-03-09","end":"1961-03-09","begin":"1961-03-09"},"type":"image","identifier":"http://content.lib.utah.edu/u?/VE_Photos,435"},"provider":{"@id":"http://dp.la/api/contributor/mwdl","name":"Mountain
+        West Digital Library"},"ingestType":"item","@id":"http://dp.la/api/items/32170d053b4d808550b2cec21ee90af9","object":"http://content.lib.utah.edu/utils/getthumbnail/collection/VE_Photos/id/435","originalRecord":{"PrimoNMBib":{"record":{"control":{"originalsourceid":"435","sourceid":"digcoll_uuu_11","addsrcrecordid":"uuu-11-117-1047","sourcedbandrecordid":"VE_Photos","sourceformat":"Digital
+        Entity","recordid":"digcoll_uuu_11VE_Photos/435","sourcesystem":"Other","sourcerecordid":"VE_Photos/435"},"sort":{"title":"Chicken
+        Farm Visit","creationdate":"1961"},"addata":{"date":"1961","pub":"Uintah County
+        Library Regional History Center"},"search":{"lsr04":"1047","lsr13":"Vernal
+        (UT) Express Photograph Collection","lsr12":"Uintah County (UT) Library","lsr03":"117","lsr02":"11","lsr14":"Vernal
+        (Utah)","lsr01":"uuu","scope":["uu","mw"],"subject":"Farming; Dudley Chicken
+        Farm","lsr10":"University of Utah J. Willard Marriott Library CONTENTdm OAI
+        Server Repository","addsrcrecordid":"uuu-11-117-1047","creationdate":"1961-03-09","title":"Chicken
+        Farm Visit","description":"From left, Bry Stringham, Ken Stringham, and DeMar
+        Dudley visit the Dudley chicken farm on an annual Chamber of Commerce farm
+        tour.","sourceid":"digcoll_uuu_11","lsr09":"University of Utah, J. Willard
+        Marriott Library","recordid":"digcoll_uuu_11VE_Photos/435","rsrctype":"images"},"facets":{"genre":"unknown","prefilter":"images","topic":["Farming","Dudley
+        Chicken Farm"],"toplevel":"online_resources","lfc01":"Vernal (UT) Express
+        Photograph Collection","format":"image/jpeg","lfc02":"Uintah County (UT) Library","collection":"Digital
+        Collections","lfc03":"University of Utah, J. Willard Marriott Library","creationdate":"1961-03-09","lfc04":"University
+        of Utah J. Willard Marriott Library CONTENTdm OAI Server Repository","lfc08":"Vernal
+        (Utah)","frbrtype":"6","frbrgroupid":"120257435","language":"eng","rsrctype":"images"},"links":{"linktorsrc":"$$Tdigcoll_uuu_11_linktores$$DOpen
+        resource in a new window","thumbnail":"$$Tdigcoll_uuu_11_linktothumb$$DSee
+        Thumbnail"},"display":{"subject":"Farming; Dudley Chicken Farm","rights":"Digital
+        image, copyright 2003 Uintah County Library","format":"image/jpeg","type":"Image","creationdate":"1961-03-09","lds17":"image","lds08":"Vernal
+        (Utah);","lds18":"Image","publisher":"Uintah County Library Regional History
+        Center","title":"Chicken Farm Visit","lds12":"Vernal Express Collection; B&W
+        copy negative and print; 6 cm x 6 cm","lds02":"University of Utah J. Willard
+        Marriott Library CONTENTdm OAI Server Repository","coverage":"Vernal (Utah);","lds01":"University
+        of Utah, J. Willard Marriott Library","lds04":"Vernal (UT) Express Photograph
+        Collection","description":"From left, Bry Stringham, Ken Stringham, and DeMar
+        Dudley visit the Dudley chicken farm on an annual Chamber of Commerce farm
+        tour.","lds03":"Uintah County (UT) Library","language":"eng","identifier":["174-2","http://content.lib.utah.edu/cdm/ref/collection/VE_Photos/id/435"]},"delivery":{"delcategory":"Online
+        Resource","institution":"MWDL"},"ranking":{"booster2":"1","booster1":"1"}},"xmlns":"http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib"},"LINKS":{"linktorsrc":"http://content.lib.utah.edu/u?/VE_Photos,435","thumbnail":"http://content.lib.utah.edu/utils/getthumbnail/collection/VE_Photos/id/435"},"RANK":"0.7996294","_id":"digcoll_uuu_11VE_Photos/435","SEARCH_ENGINE_TYPE":"Local
+        Search Engine","ID":"4230801","SEARCH_ENGINE":"Local Search Engine","GETIT":{"deliveryCategory":"Online
+        Resource","GetIt2":"http://sfx7.exlibrisgroup.com/uutah?ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&ctx_tim=2013-04-14T12%3A20%3A26IST&url_ver=Z39.88-2004&url_ctx_fmt=infofi/fmt:kev:mtx:ctx&rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-digcoll_uuu_11&rft_val_fmt=info:ofi/fmt:kev:mtx:&rft.genre=&rft.atitle=&rft.jtitle=&rft.btitle=&rft.aulast=&rft.auinit=&rft.auinit1=&rft.auinitm=&rft.ausuffix=&rft.au=&rft.aucorp=&rft.volume=&rft.issue=&rft.part=&rft.quarter=&rft.ssn=&rft.spage=&rft.epage=&rft.pages=&rft.artnum=&rft.issn=&rft.eissn=&rft.isbn=&rft.sici=&rft.coden=&rft_id=info:doi/&rft.object_id=&rft.eisbn=&rft_dat=<digcoll_uuu_11>Uintah_History/2558</digcoll_uuu_11>&rft_id=info:oai/","GetIt1":"http://content.lib.utah.edu/u?/Uintah_History,2558"},"NO":"668167"},"score":1.4485863},{"ingestDate":"2013-04-14T13:50:32.873133","_rev":"1-c8f4f0b542d86f930be0aa05d948c748","id":"d5d33e93d1c6188386a7db3f805f5382","@context":{"edm":"http://www.europeana.eu/schemas/edm/","isShownAt":"edm:isShownAt","dpla":"http://dp.la/terms/","dataProvider":"edm:dataProvider","aggregatedDigitalResource":"dpla:aggregatedDigitalResource","state":"dpla:state","hasView":"edm:hasView","provider":"edm:provider","collection":"dpla:aggregation","object":"edm:object","stateLocatedIn":"dpla:stateLocatedIn","begin":{"@type":"xsd:date","@id":"dpla:dateRangeStart"},"@vocab":"http://purl.org/dc/terms/","LCSH":"http://id.loc.gov/authorities/subjects","sourceResource":"edm:sourceResource","name":"xsd:string","coordinates":"dpla:coordinates","end":{"@type":"xsd:date","@id":"dpla:end"},"originalRecord":"dpla:originalRecord"},"isShownAt":"http://thoth.library.utah.edu:1701/primo_library/libweb/action/dlDisplay.do?vid=MWDL&afterPDS=true&docId=digcoll_uuu_11USHS_Class/14879","_id":"mwdl--digcoll_uuu_11USHS_Class/14879","dataProvider":"Utah
+        State Historical Society","sourceResource":{"title":"Coon Chicken Inn P.1;
+        No. 17747","extent":"7.6 inches x 7.7 inches","description":"17747 Carol Wineriter,
+        Donor. 2950 Highland Dr. Plate used at Salt Lake City''s Coon Chicken Inn.","subject":[{"name":"Restaurants"}],"rights":"Digital
+        Image \u00a9 2008 Utah State Historical Society. All Rights Reserved.","relation":["Relation:
+        725.7","Is part of: Classified Photograph Collection"],"collection":{"id":"fcd9663d450b786d938cc53ae732fa13","title":"Mwdl","@id":"http://dp.la/api/collections/fcd9663d450b786d938cc53ae732fa13"},"stateLocatedIn":[{"name":"UT"}],"isPartOf":"Utah
+        State Historical Society Classified Photograph Collection","type":"image","identifier":"http://content.lib.utah.edu/u?/USHS_Class,14879"},"provider":{"@id":"http://dp.la/api/contributor/mwdl","name":"Mountain
+        West Digital Library"},"ingestType":"item","@id":"http://dp.la/api/items/d5d33e93d1c6188386a7db3f805f5382","object":"http://content.lib.utah.edu/utils/getthumbnail/collection/USHS_Class/id/14879","originalRecord":{"PrimoNMBib":{"record":{"control":{"originalsourceid":"14879","sourceid":"digcoll_uuu_11","addsrcrecordid":"uuu-11-119-1038","sourcedbandrecordid":"USHS_Class","sourceformat":"Digital
+        Entity","recordid":"digcoll_uuu_11USHS_Class/14879","sourcesystem":"Other","sourcerecordid":"USHS_Class/14879"},"sort":{"title":"Coon
+        Chicken Inn P.1"},"addata":{"date":"2009","pub":"Utah State Historical Society"},"search":{"lsr04":"1038","lsr13":"Utah
+        State Historical Society Classified Photograph Collection","addtitle":["Relation:
+        725.7","Is part of: Classified Photograph Collection","No. 17747"],"lsr12":"Utah
+        State Historical Society","lsr03":"119","lsr15":"Classified Photograph Collection","lsr02":"11","lsr01":"uuu","scope":["uu","mw"],"subject":"Restaurants","lsr10":"University
+        of Utah J. Willard Marriott Library CONTENTdm OAI Server Repository","addsrcrecordid":"uuu-11-119-1038","creatorcontrib":"Digitized
+        by: J. Willard Marriott Library, University of Utah","title":"Coon Chicken
+        Inn P.1","description":"17747 Carol Wineriter, Donor. 2950 Highland Dr. Plate
+        used at Salt Lake City''s Coon Chicken Inn.","sourceid":"digcoll_uuu_11","lsr09":"University
+        of Utah, J. Willard Marriott Library","recordid":"digcoll_uuu_11USHS_Class/14879","rsrctype":"images"},"facets":{"genre":"unknown","topic":"Restaurants","prefilter":"images","toplevel":"online_resources","frbrtype":"6","frbrgroupid":"120376530","lfc01":"Utah
+        State Historical Society Classified Photograph Collection","collection":"Digital
+        Collections","lfc02":"Utah State Historical Society","format":"image/jp2","lfc03":"University
+        of Utah, J. Willard Marriott Library","lfc04":"University of Utah J. Willard
+        Marriott Library CONTENTdm OAI Server Repository","rsrctype":"images"},"links":{"linktorsrc":"$$Tdigcoll_uuu_11_linktores$$DOpen
+        resource in a new window","thumbnail":"$$Tdigcoll_uuu_11_linktothumb$$DSee
+        Thumbnail"},"display":{"subject":"Restaurants","relation":["Relation: 725.7","Is
+        part of: Classified Photograph Collection"],"rights":"Digital Image \u00a9
+        2008 Utah State Historical Society. All Rights Reserved.","format":"image/jp2","type":"Image","lds17":"image","lds05":"7.6
+        inches x 7.7 inches","lds18":"image","publisher":"Utah State Historical Society","title":"Coon
+        Chicken Inn P.1","lds12":"Print Photograph","lds02":"University of Utah J.
+        Willard Marriott Library CONTENTdm OAI Server Repository","lds10":"No. 17747","lds01":"University
+        of Utah, J. Willard Marriott Library","contributor":"Digitized by: J. Willard
+        Marriott Library, University of Utah","lds04":"Utah State Historical Society
+        Classified Photograph Collection","description":"17747 Carol Wineriter, Donor.
+        2950 Highland Dr. Plate used at Salt Lake City''s Coon Chicken Inn.","lds03":"Utah
+        State Historical Society","identifier":["39222001696603.tif","http://content.lib.utah.edu/cdm/ref/collection/USHS_Class/id/14879"]},"delivery":{"delcategory":"Online
+        Resource","institution":"MWDL"},"ranking":{"booster2":"1","booster1":"1"}},"xmlns":"http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib"},"LINKS":{"linktorsrc":"http://content.lib.utah.edu/u?/USHS_Class,14879","thumbnail":"http://content.lib.utah.edu/utils/getthumbnail/collection/USHS_Class/id/14879"},"RANK":"0.7996294","_id":"digcoll_uuu_11USHS_Class/14879","SEARCH_ENGINE_TYPE":"Local
+        Search Engine","ID":"4217005","SEARCH_ENGINE":"Local Search Engine","GETIT":{"deliveryCategory":"Online
+        Resource","GetIt2":"http://sfx7.exlibrisgroup.com/uutah?ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&ctx_tim=2013-04-14T11%3A49%3A02IST&url_ver=Z39.88-2004&url_ctx_fmt=infofi/fmt:kev:mtx:ctx&rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-digcoll_uuu_11&rft_val_fmt=info:ofi/fmt:kev:mtx:&rft.genre=&rft.atitle=&rft.jtitle=&rft.btitle=&rft.aulast=&rft.auinit=&rft.auinit1=&rft.auinitm=&rft.ausuffix=&rft.au=&rft.aucorp=&rft.volume=&rft.issue=&rft.part=&rft.quarter=&rft.ssn=&rft.spage=&rft.epage=&rft.pages=&rft.artnum=&rft.issn=&rft.eissn=&rft.isbn=&rft.sici=&rft.coden=&rft_id=info:doi/&rft.object_id=&rft.eisbn=&rft_dat=<digcoll_uuu_11>UU_Photo_Archives/35681</digcoll_uuu_11>&rft_id=info:oai/","GetIt1":"http://content.lib.utah.edu/u?/UU_Photo_Archives,35681"},"NO":"654371"},"score":1.2342211},{"ingestDate":"2013-04-17T09:33:21.049749","_rev":"5-e097b4fd3aeab6ff72eaf9839cc17fac","id":"b779ab204cdd73132159c728692aca79","@context":{"edm":"http://www.europeana.eu/schemas/edm/","isShownAt":"edm:isShownAt","dpla":"http://dp.la/terms/","dataProvider":"edm:dataProvider","aggregatedDigitalResource":"dpla:aggregatedDigitalResource","state":"dpla:state","hasView":"edm:hasView","provider":"edm:provider","collection":"dpla:aggregation","object":"edm:object","stateLocatedIn":"dpla:stateLocatedIn","begin":{"@type":"xsd:date","@id":"dpla:dateRangeStart"},"@vocab":"http://purl.org/dc/terms/","LCSH":"http://id.loc.gov/authorities/subjects","sourceResource":"edm:sourceResource","name":"xsd:string","coordinates":"dpla:coordinates","end":{"@type":"xsd:date","@id":"dpla:end"},"originalRecord":"dpla:originalRecord"},"isShownAt":"http://collections.si.edu/search/results.htm?q=record_ID%3Anmah_600961&repo=DPLA","_id":"smithsonian--http://collections.si.edu/search/results.htm?q=record_ID%3Anmah_600961&repo=DPLA","dataProvider":"National
+        Museum of American History, Kenneth E. Behring Center","sourceResource":{"title":"Water
+        Jug","spatial":{"state":"Utuado Municipio","region":["United States of America","Puerto
+        Rico"],"coordinates":"18.2469997406, -66.6480026245","name":"Puerto Rico"},"subject":[{"name":"Household
+        Tools and Equipment"},{"name":"Daily Life"},{"name":"Cultures & Communities"},{"name":"Vidal"},{"name":"Puerto
+        Rico"}],"description":"Chickens are a familiar decorative theme in household
+        objects. This contemporary chicken-shaped <i>botijo</i>, or water jug is made
+        of terra cotta with a removable stopper in the form of a chicken head.","temporal":[{"displayDate":"ca
+        1980","end":"1980","begin":"1980"}],"rights":"Gift of Teodoro Vidal","collection":{"id":"fdc2b01e474420828fee5dad60b81754","title":"Vidal","@id":"http://dp.la/api/collections/fdc2b01e474420828fee5dad60b81754"},"date":{"displayDate":"ca
+        1980","end":"1980","begin":"1980"}},"provider":{"@id":"http://dp.la/api/contributor/smithsonian","name":"Smithsonian
+        Institution"},"ingestType":"item","@id":"http://dp.la/api/items/b779ab204cdd73132159c728692aca79","object":"http://ids.si.edu/ids/deliveryService?id=NMAH-AHB2006q05030&max=150","originalRecord":{"descriptiveNonRepeating":{"title_sort":"WATER
+        JUG","title":{"#text":"Water Jug","@label":"Title"},"online_media":{"media":{"#text":"http://ids.si.edu/ids/dynamic?id=NMAH-AHB2006q05030","@idsId":"NMAH-AHB2006q05030","@rights":"This
+        image was obtained from the Smithsonian Institution. The image or its contents
+        may be protected by international copyright laws. Contact NMAHDigitalAssets@si.edu
+        for more information.","@type":"Images","@thumbnail":"http://ids.si.edu/ids/deliveryService?id=NMAH-AHB2006q05030&max=150"},"@mediaCount":"1"},"unit_code":"NMAH","data_source":"National
+        Museum of American History, Kenneth E. Behring Center","record_ID":"nmah_600961"},"freetext":{"topic":[{"#text":"Daily
+        Life","@label":"subject"},{"#text":"Cultures & Communities","@label":"subject"},{"#text":"Puerto
+        Rico","@label":"subject"},{"#text":"Household Tools and Equipment","@label":"subject"},{"#text":"Vidal","@label":"subject"}],"title":{"#text":"Botijo
+        de Agua","@label":"Title (Spanish)"},"dataSource":{"#text":"National Museum
+        of American History, Kenneth E. Behring Center","@label":"Data Source"},"creditLine":{"#text":"Gift
+        of Teodoro Vidal","@label":"Credit Line"},"physicalDescription":[{"#text":"ceramic
+        (overall material)","@label":"Physical Description"},{"#text":"overall: 26.5
+        cm x 16.5 cm x 26.5 cm; 10 7/16 in x 6 1/2 in x 10 7/16 in","@label":"Measurements"}],"setName":[{"#text":"Home
+        and Community Life: Ethnic","@label":"See more items in"},{"#text":"Vidal","@label":"See
+        more items in"}],"notes":[{"#text":"Chickens are a familiar decorative theme
+        in household objects. This contemporary chicken-shaped <i>botijo</i>, or water
+        jug is made of terra cotta with a removable stopper in the form of a chicken
+        head.","@label":"Description"},{"#text":"Currently not on view","@label":"Location"}],"place":{"#text":"Puerto
+        Rico","@label":"place made"},"date":{"#text":"ca 1980","@label":"Date made"},"identifier":[{"#text":"1997.0097.0082","@label":"ID
+        Number"},{"#text":"1997.0097.0082","@label":"catalog number"},{"#text":"1997.0097","@label":"accession
+        number"}],"objectType":{"#text":"ceramic jug","@label":"Object Name"}},"_id":"nmah_600961","indexedStructured":{"geoLocation":{"Other":{"#text":"Puerto
+        Rico","@type":"Place"},"L1":{"#text":" North America","@type":""},"L2":{"#text":"United
+        States of America","@type":""},"L3":{"#text":"Puerto Rico","@type":""}},"topic":["Daily
+        Life","Household Tools and Equipment","Cultures & Communities","Vidal"],"online_media_type":"Images","online_media_rights":"Public
+        Domain","place":"Puerto Rico"}},"score":1.2340382},{"ingestDate":"2013-04-17T12:17:37.236195","_rev":"3-cc96570b1bf00f54f84a90e6f6af5326","id":"ff124885469c74f81edb6e42ce292c4a","@context":{"edm":"http://www.europeana.eu/schemas/edm/","isShownAt":"edm:isShownAt","dpla":"http://dp.la/terms/","dataProvider":"edm:dataProvider","aggregatedDigitalResource":"dpla:aggregatedDigitalResource","state":"dpla:state","hasView":"edm:hasView","provider":"edm:provider","collection":"dpla:aggregation","object":"edm:object","stateLocatedIn":"dpla:stateLocatedIn","begin":{"@type":"xsd:date","@id":"dpla:dateRangeStart"},"@vocab":"http://purl.org/dc/terms/","LCSH":"http://id.loc.gov/authorities/subjects","sourceResource":"edm:sourceResource","name":"xsd:string","coordinates":"dpla:coordinates","end":{"@type":"xsd:date","@id":"dpla:end"},"originalRecord":"dpla:originalRecord"},"isShownAt":"http://collections.si.edu/search/results.htm?q=record_ID%3Afsg_S2005.419&repo=DPLA","_id":"smithsonian--http://collections.si.edu/search/results.htm?q=record_ID%3Afsg_S2005.419&repo=DPLA","dataProvider":"Freer
+        Gallery of Art and Arthur M. Sackler Gallery","sourceResource":{"title":"Spirit
+        house figure of a chicken coop","spatial":{"state":"Changwat Phra Nakhon Si
+        Ayutthaya","coordinates":"14.3434448242, 100.566482544","country":"Kingdom
+        of Thailand","name":"Ayutthaya, Ayutthaya province, Thailand"},"subject":[{"name":"Ayutthaya
+        period (1351 - 1767)"},{"name":"Unglazed"},{"name":"Thailand"},{"name":"Chicken"},{"name":"Bangkok
+        period (1782 - )"},{"name":"Earthenware"}],"temporal":[{"displayDate":"16th-19th
+        century","end":null,"begin":null},{"displayDate":"Ayutthaya period or Bangkok
+        period","end":null,"begin":null}],"rights":"Gift of Osborne and Gratia Hauge,
+        and Victor and Takako Hauge","format":"Earthenware","collection":{"id":"66df33f3f1b5dda88c10824678f3ae93","title":"Freer
+        Gallery of Art and Arthur M. Sackler Gallery Collection","@id":"http://dp.la/api/collections/66df33f3f1b5dda88c10824678f3ae93"},"date":{"displayDate":"16th-19th
+        century","end":null,"begin":null},"identifier":"S2005.419"},"provider":{"@id":"http://dp.la/api/contributor/smithsonian","name":"Smithsonian
+        Institution"},"ingestType":"item","@id":"http://dp.la/api/items/ff124885469c74f81edb6e42ce292c4a","object":"http://www.asia.si.edu/collections/medium/S2005.419.jpg","originalRecord":{"descriptiveNonRepeating":{"title_sort":"SPIRIT
+        HOUSE FIGURE OF A CHICKEN COOP","title":{"#text":"Spirit house figure of a
+        chicken coop","@label":"Title"},"online_media":{"media":{"#text":"http://www.asia.si.edu/collections/zoom/S2005.419.jpg","@idsId":"http://www.asia.si.edu/collections/zoom/S2005.419.jpg","@type":"Images","@thumbnail":"http://www.asia.si.edu/collections/medium/S2005.419.jpg"},"@mediaCount":"1"},"record_ID":"fsg_S2005.419","data_source":"Freer
+        Gallery of Art and Arthur M. Sackler Gallery","record_link":"http://collections.si.edu/search/results.htm?q=record_ID%3Afsg_S2005.419&repo=DPLA","unit_code":"FSG"},"freetext":{"topic":[{"#text":"chicken","@label":"Topic"},{"#text":"Thailand","@label":"Topic"},{"#text":"Ayutthaya
+        period (1351 - 1767)","@label":"Topic"},{"#text":"earthenware","@label":"Topic"},{"#text":"unglazed","@label":"Topic"},{"#text":"Bangkok
+        period (1782 - )","@label":"Topic"}],"dataSource":{"#text":"Freer Gallery
+        of Art and Arthur M. Sackler Gallery","@label":"Data Source"},"creditLine":{"#text":"Gift
+        of Osborne and Gratia Hauge, and Victor and Takako Hauge","@label":"Credit
+        Line"},"physicalDescription":{"#text":"Earthenware","@label":"Medium"},"setName":{"#text":"Freer
+        Gallery of Art and Arthur M. Sackler Gallery Collection","@label":"See more
+        items in"},"place":{"#text":"Ayutthaya, Ayutthaya province, Thailand","@label":"Origin"},"date":[{"#text":"16th-19th
+        century","@label":"Date"},{"#text":"Ayutthaya period or Bangkok period","@label":"Period"}],"identifier":{"#text":"S2005.419","@label":"Accession
+        Number"},"objectType":[{"#text":"Ceramic","@label":"Type"},{"#text":"Sculpture","@label":"Type"}]},"_id":"fsg_S2005.419","indexedStructured":{"geoLocation":{"L2":{"#text":"Thailand","@type":"Country"},"L1":{"#text":"
+        Asia","@type":"Continent"}},"object_type":["Sculpture (visual work)","Ceramics
+        (objects)"],"topic":["Pottery","Chicken","Unglazed","Ayutthaya period (1351
+        - 1767)","Bangkok period (1782 - )"],"online_media_type":"Images","place":["Ayutthaya
+        province","Thailand","Ayutthaya"],"date":["1890s","1500s"]}},"score":1.2340382},{"@context":{"edm":"http://www.europeana.eu/schemas/edm/","isShownAt":"edm:isShownAt","dpla":"http://dp.la/terms/","dataProvider":"edm:dataProvider","aggregatedDigitalResource":"dpla:aggregatedDigitalResource","state":"dpla:state","hasView":"edm:hasView","provider":"edm:provider","collection":"dpla:aggregation","object":"edm:object","stateLocatedIn":"dpla:stateLocatedIn","begin":{"@type":"xsd:date","@id":"dpla:dateRangeStart"},"@vocab":"http://purl.org/dc/terms/","LCSH":"http://id.loc.gov/authorities/subjects","sourceResource":"edm:sourceResource","name":"xsd:string","coordinates":"dpla:coordinates","end":{"@type":"xsd:date","@id":"dpla:end"},"originalRecord":"dpla:originalRecord"},"isShownAt":"http://dp.la/info/nara-content-notification/","dataProvider":"National
+        Archives at College Park - Still Pictures","hasView":[{"format":"image/gif","url":"http://media.nara.gov/media/images/19/26/19-2555a.gif"}],"provider":{"@id":"http://dp.la/api/contributor/nara","name":"National
+        Archives and Records Administration"},"object":"http://media.nara.gov/media/images/19/26/19-2555t.gif","id":"20040732cd29f94d6a3827cb3254a38b","_rev":"2-717b1093cedc46fc8db574f112df903c","ingestDate":"2013-04-11T21:21:42.181142","_id":"nara--522123","sourceResource":{"title":"Haskell
+        County, Kansas. Miscellaneous scenes - Chicken yard with woman in background","description":"Full
+        caption reads as follows: Haskell County, Kansas. Miscellaneous scenes - Chicken
+        yard with woman in background.","rights":"Restrictions: Unrestricted; Use
+        status: Unrestricted","collection":{"id":"2ec583fe70bc1d0c8230d598db8b0792","title":"Records
+        of the Bureau of Agricultural Economics, 1876 - 1959","@id":"http://dp.la/api/collections/2ec583fe70bc1d0c8230d598db8b0792"},"stateLocatedIn":{"name":"MD"},"isPartOf":"Series:
+        Photographic Prints Documenting Programs and Activities of the Bureau of Agricultural
+        Economics and Predecessor Agencies, ca. 1922 - ca. 1947","date":{"displayDate":"04/1941","end":"1941-04","begin":"1941-04"},"type":"image","creator":"Department
+        of Agriculture. Bureau of Agricultural Economics. Division of Economic Information.
+        (ca. 1922 - ca. 1953)"},"ingestType":"item","@id":"http://dp.la/api/items/20040732cd29f94d6a3827cb3254a38b","originalRecord":{"contributors":{"contributor":{"contributor-id":"5307166","num":"1","standard":"Y","contributor-display":"Rusinow,
+        Irving","contributor-type":"Photographer","contributor-record-type":"PER"}},"use-restriction":{"use-status":"Unrestricted","specific-use-restrictions":null},"created-timestamp":"1/20/2013
+        16:0:59","local-identifier-desc":"83-G-41934","indexable-dates":{"date-range":"[g_x64_30,
+        b_x4_486, b_x4_481, g_x128_15, b_x2_961, g_x8_243, g_x32_60, g_x4_480, b_x8_242,
+        g_x16_120, g_x16_121, b_x8_241, g_x8_240]"},"variant-control-numbers":{"variant-control-number":{"variant-type":"NAIL
+        Control Number","num":"1","variant-number-desc":"NWDNS-83-G-41934","mlr":"false","variant-number":"NWDNS-83-G-41934"}},"access-restriction":{"restriction-status":"Unrestricted","specific-access-restrictions":null},"title-date":"04/1941","parent":{"parent-id":"521048","parent-title":"Photographic
+        Prints Documenting Programs and Activities of the Bureau of Agricultural Economics
+        and Predecessor Agencies, compiled ca. 1922 - ca. 1947, documenting the period
+        ca. 1911 - ca. 1947","parent-lod":"Series"},"general-records-types":{"general-records-type":{"general-records-type-desc":"Photographs
+        and other Graphic Materials","general-records-type-id":"4237050","num":"1"}},"arc-id-desc":"522123","physical-occurrences":{"physical-occurrence":{"copy-status":"Preservation-Reproduction-Reference","media-occurrences":{"media-occurrence":{"num":"1","media-type":"Photographic
+        Print"}},"reference-units":{"reference-unit":{"summary":"true","phone":"301-837-0561","num":"1","fax":"301-837-3621","email":"stillpixorder@nara.gov","name":"National
+        Archives at College Park - Still Pictures","mailcode":"RD-DC-S","state":"MD","address1":"National
+        Archives at College Park","address2":"8601 Adelphi Road","ref-id":"31","postcode":"20740-6001","city":"College
+        Park"}}}},"creators":{"creator":{"summary":"true","creator-record-type":"ORG","creator-display":"Department
+        of Agriculture. Bureau of Agricultural Economics. Division of Economic Information.\t
+        (ca. 1922 - ca. 1953)","num":"1","standard":"Y","creator-id":"1105712","creator-type":"Most
+        Recent"}},"title-only":"Haskell County, Kansas. Miscellaneous scenes - Chicken
+        yard with woman in background.","title":"Haskell County, Kansas. Miscellaneous
+        scenes - Chicken yard with woman in background.","production-dates":{"production-date":"04/1941"},"scope-content-note":"Full
+        caption reads as follows: Haskell County, Kansas. Miscellaneous scenes - Chicken
+        yard with woman in background.\n","_id":"522123","arc-id":"522123","level-of-desc":{"lod-display":"Item","level-id":"NAVI"},"parent-control-group":{"parent-control-lod":"Record
+        Group","parent-control-id":"83","parent-control-title":"Records of the Bureau
+        of Agricultural Economics, 1876 - 1959"},"sequence-number":"1075","edited-timestamp":"[g_x32_364,
+        g_x8_1457, b_x1_11660, g_x2_5830, g_x128_91, g_x16_728, g_x64_182, g_x4_2915]","hierarchy":{"hierarchy-item":[{"hierarchy-item-id":"521048","hierarchy-item-inclusive-dates":"ca.
+        1922 - ca. 1947","hierarchy-item-lod":"Series","hierarchy-item-title":"Photographic
+        Prints Documenting Programs and Activities of the Bureau of Agricultural Economics
+        and Predecessor Agencies, ca. 1922 - ca. 1947"},{"hierarchy-item-id":"412","hierarchy-item-record-group-number":"83","hierarchy-item-lod":"Record
+        Group","hierarchy-item-title":"Records of the Bureau of Agricultural Economics,
+        1876 - 1959"}]},"objects":{"object":{"thumbnail-url":"http://media.nara.gov/media/images/19/26/19-2555t.gif","num":"1","object-sequence-number":"1","mime-type":"image/gif","file-size":"107699","file-url":"http://media.nara.gov/media/images/19/26/19-2555a.gif"}},"local-identifier":"83-G-41934"},"score":1.2340382}],"facets":[]}'
+    http_version: 
+  recorded_at: Sat, 04 May 2013 14:45:39 GMT
+recorded_with: VCR 2.4.0
