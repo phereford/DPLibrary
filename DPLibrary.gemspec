@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['phereford@gmail.com']
   spec.description   = %q{Ruby API wrapper for the Digital Public Library of America API}
   spec.summary       = %q{A ruby gem that is an API wrapper for the DPLA}
-  spec.homepage      = 'http://github.com/pford/DPLibrary'
+  spec.homepage      = 'http://github.com/phereford/DPLibrary'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
