@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Configuration
 
-First step: Acquire an API KEY from dp.la. To do this, simply run the
+1. Acquire an API KEY from dp.la. To do this, simply run the
 following command from your terminal (replace YOUR_EMAIL with your
 email):
 
@@ -28,12 +28,18 @@ email):
 curl -v -XPOST http://api.dp.la/v2/api_key/YOUR_EMAIL@example.com
 ```
 
-Second step: before making any api calls you will need to set your api
-key in your application. To do that, run:
+You will receive an email with an api key (should take less than 5
+minutes).
+
+2) Before making any api calls you will need to set your api
+key in your application. To do that, do the following:
 
 ```
 DPLibrary.api_key = '<API KEY GOES HERE>'
 ```
+
+If you are using a rails app, putting this in a config/initializer makes
+the most sense.
 
 ## Usages
 
