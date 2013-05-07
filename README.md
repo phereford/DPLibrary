@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/[phereford]/[DPLibrary].png)](https://travis-ci.org/[phereford]/[DPLibrary])
 [![Code Climate](https://codeclimate.com/github/phereford/DPLibrary.png)](https://codeclimate.com/github/phereford/DPLibrary)
 # DPLibrary
 
