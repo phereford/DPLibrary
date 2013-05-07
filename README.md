@@ -43,11 +43,81 @@ the most sense.
 
 ## Usages
 
+After setting your api_key to DPLibrary.api_key, it's time to start
+querying the DPLA!!
+
+For reference, you should glance at the [DPLA API
+Reference](http://dp.la/info/developers).
+
+Let's get started!
+```
+@documents_collection = DPLibrary::DocumentCollection.new({q: 'chicken'})
+@documents_collection.count # => returns the total count of your query.
+@documents_collection.limit # => the limit of documents per query
+@documents_collection.offset # => pagination offset in results
+@documents_collection.documents # => Returns an array of document objects
+```
+
+```
+@document = DPLibrary::DocumentCollection.new({q: 'chicken'}).documents.first
+@document.collection # => returns a collection object
+@document.original_record # => returns an original record object
+
+## Attributes for documents
+:id, :url, :source, :title, :description, :subject, :language, :format,
+:type, :publisher, :creaetor, :provider, :collection, :score,
+:original_record
+```
+
+Now there are many types of parameters you can pass in the
+DocumentCollection initialize method. For a complete list, check out the
+[DPLA API Reference](http://dp.la/info/developers).
+ 
+For the lazy, here is a brief list of what those params can be. It's
+pretty straightforward what the params do.
+
+```
+q # => query string 
+sourceResource.id
+sourceResource.contributor
+sourceResource.date.begin
+sourceResource.date.end
+sourceResource.extent
+sourceResource.language.name
+sourceResource.language.iso639
+sourceResource.format
+sourceResource.stateLocatedIn.name
+sourceResource.stateLocatedIn.iso3166-2
+sourceResource.spatial.name
+sourceResource.spatial.country
+sourceResource.spatial.region
+sourceResource.spatial.county
+sourceResource.spatial.state
+sourceResource.spatial.city
+sourceResource.spatial.iso3166-2
+sourceResource.spatial.coordinates
+sourceResource.subject.@id
+sourceResource.subject.type
+sourceResource.subject.name
+sourceResource.temporal.begin
+sourceResource.temporal.end
+sourceResource.title
+sourceResource.type
+hasView.@id
+hasView.format
+isPartOf.@id
+isPartOf.name
+isShownAt
+object
+provider.@id
+provider.name
+```
+
 ## ToDo's
 * Write Tests
 * Create fixtures for tests
-* Write up usage documentation
 * Dry up lib files
+* Write up collection.find method for querying collections
 
 ## Contributing
 
