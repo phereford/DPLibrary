@@ -1,0 +1,37 @@
+'id': 8ce4474d8b1eefffaa5ce4ce34369c43
+'isShownAt': http://www.biodiversitylibrary.org/item/79580
+'dataProvider': Library of Congress
+'score': 1.9722701
+sourceResource:
+  collection:
+    'id': 24087df2c58f149a8167a9589cffd830
+    'title': Volumes
+  'name': Library of Congress
+  'title': The chicken cholera preventive and exterminator, a treatise giving the cause, symptoms, prevention, and extermination of chicken cholera
+  'description': Test
+  'subject': 
+    - 'name': 'Chicken cholera'
+  'language':
+    - 
+      'iso639_3': 'eng'
+      'name': 'English'
+  'format': Book
+  'type': text
+  'publisher': Wooster [Ohio]Republican steam press print,1875
+  'creator': Hill, A. J
+provider:
+  '@id': http://dp.la/api/contributor/bhl
+  'name': Biodiversity Heritage Library
+originalRecord:
+  'id': oai:biodiversitylibrary.org:item/79580
+  'title': The chicken cholera preventive and exterminator, a treatise giving the cause, symptoms, prevention, and extermination of chicken cholera;
+  'handle': http://www.biodiversitylibrary.org/item/79580
+  'description': Test
+  'contributor': Library of Congress
+  'subject': Chicken cholera
+  'datestamp': '2012-06-22T02:33:26Z'
+  'label': The chicken cholera preventive and exterminator, a treatise giving the cause, symptoms, prevention, and extermination of chicken cholera;
+  'language': English
+  'type': ["text", "Book"]
+  'creator': Hill, A. J.
+'publisher': Wooster [Ohio]Republican steam press print,1875.
