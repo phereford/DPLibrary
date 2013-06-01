@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/[phereford]/[DPLibrary].png)](https://travis-ci.org/[phereford]/[DPLibrary])
 [![Code Climate](https://codeclimate.com/github/phereford/DPLibrary.png)](https://codeclimate.com/github/phereford/DPLibrary)
+[![Coverage Status](https://coveralls.io/repos/phereford/DPLibrary/badge.png)](https://coveralls.io/r/phereford/DPLibrary)
 # DPLibrary
 
 A simple ruby API wrapper around the [Digital Public Library of

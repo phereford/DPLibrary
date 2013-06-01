@@ -1,6 +1,9 @@
 require 'DPLibrary'
 require 'rspec'
 require 'vcr'
+require 'coveralls'
+
+Coveralls.wear!
 
 VCR.configure do |config|
   config.configure_rspec_metadata!
