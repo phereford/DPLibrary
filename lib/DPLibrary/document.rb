@@ -48,8 +48,8 @@ module DPLibrary
       OriginalRecord.new(original_record_hash)
     end
 
-    def create_collection(collection_hash)
-      Collection.new(collection_hash)
+    def create_collection(collection_response)
+      Collection.new(collection_response)
     end
   end
 end
