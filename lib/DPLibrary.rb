@@ -8,6 +8,7 @@ module DPLibrary
   autoload :Base, 'DPLibrary/base'
   autoload :DocumentCollection, 'DPLibrary/document_collection'
   autoload :Collection, 'DPLibrary/collection'
+  autoload :CollectionItem, 'DPLibrary/collection_item'
   autoload :Document, 'DPLibrary/document'
   autoload :Provider, 'DPLibrary/provider'
   autoload :OriginalRecord, 'DPLibrary/original_record'
