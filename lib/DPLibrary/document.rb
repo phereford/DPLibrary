@@ -49,7 +49,7 @@ module DPLibrary
     end
 
     def create_collection(collection_response)
-      Collection.new(collection_response)
+      collection_response.nil? ? nil : Collection.new(collection_response)
     end
   end
 end
