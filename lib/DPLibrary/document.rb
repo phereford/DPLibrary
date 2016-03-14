@@ -13,6 +13,7 @@ module DPLibrary
                     :creator,
                     :provider,
                     :collection,
+                    :intermediate_provider,
                     :original_record,
                     :score
 
@@ -25,6 +26,7 @@ module DPLibrary
       self.id = hash['id']
       self.url = hash['isShownAt']
       self.source = hash['dataProvider']
+      self.intermediate_provider = hash['intermediateProvider']
       self.title = hash['sourceResource']['title']
       self.description = hash['sourceResource']['description']
       self.subject = hash['sourceResource']['subject']
