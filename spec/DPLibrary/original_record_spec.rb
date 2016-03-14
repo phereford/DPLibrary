@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'rspec/its'
 
 describe DPLibrary::OriginalRecord do
   subject { DPLibrary::OriginalRecord.new( YAML.load_file( './spec/fixtures/original_record.yml' ) ) }
