@@ -14,8 +14,30 @@ module DPLibrary
     end
 
     private
+
     def find(parameters)
-      get('items', parameters)
+      p = path!(parameters)
+      get(p, parameters)
+    end
+
+    ##
+    # Return the appropriate URI path, which depends upon whether IDs are given
+    #
+    # Remove an `id' parameter from the parameters if it exists, because it
+    # will become part of the path, and should not be included in the
+    # querystring parameters.
+    #
+    # @param [Hash] parameters  Query parameters
+    # @return [String]
+    # @api private
+    #
+    def path!(parameters)
+      if parameters.include? :id
+        id = parameters.delete(:id)
+        "items/#{Array(id).join(',')}"
+      else
+        'items'
+      end
     end
 
     def set_method(values)
