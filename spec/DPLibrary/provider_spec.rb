@@ -1,5 +1,6 @@
 require 'spec_helper'
 require 'yaml'
+require 'rspec/its'
 
 describe DPLibrary::Provider do
   subject { DPLibrary::Provider.new( YAML.load_file( './spec/fixtures/provider.yml' ) ) }
