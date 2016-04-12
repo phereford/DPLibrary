@@ -67,8 +67,14 @@ Let's get started!
 
 ## Attributes for documents
 :id, :url, :source, :title, :description, :subject, :language, :format,
-:type, :publisher, :creaetor, :provider, :collection, :score,
-:original_record
+:type, :publisher, :creaetor, :provider, :collection, :intermediate_provider,
+:score, :original_record
+```
+
+You can retrieve multiple records by ID by passing an array for the `:id`
+parameter, like this:
+```
+@documents_collection = DPLibrary::DocumentCollection.new({id: ['id1', 'id2']})
 ```
 
 Now there are many types of parameters you can pass in the
@@ -113,6 +119,7 @@ isShownAt
 object
 provider.@id
 provider.name
+intermediateProvider
 ```
 
 ## ToDo's
