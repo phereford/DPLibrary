@@ -119,7 +119,7 @@ isShownAt
 object
 provider.@id
 provider.name
-intermediateProvider
+intermediate_provider
 ```
 
 ## ToDo's
