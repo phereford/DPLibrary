@@ -68,7 +68,7 @@ Let's get started!
 ## Attributes for documents
 :id, :url, :source, :title, :description, :subject, :language, :format,
 :type, :publisher, :creaetor, :provider, :collection, :intermediate_provider,
-:score, :original_record
+:score, :original_record, :object
 ```
 
 You can retrieve multiple records by ID by passing an array for the `:id`

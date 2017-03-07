@@ -20,5 +20,6 @@ describe DPLibrary::Document do
     its(:collection) { should be_kind_of DPLibrary::Collection }
     its(:original_record) { should be_kind_of DPLibrary::OriginalRecord }
     its(:score) { should eql 1.9722701 }
+    its(:object){ should eql 'http://example.com/object/thumbnail' }
   end
 end

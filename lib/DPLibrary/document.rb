@@ -15,6 +15,7 @@ module DPLibrary
                     :collection,
                     :intermediate_provider,
                     :original_record,
+                    :object,
                     :score
 
     def initialize(response_hash={})
@@ -36,6 +37,7 @@ module DPLibrary
       self.publisher = hash['sourceResource']['publisher']
       self.creator = hash['sourceResource']['creator']
       self.score = hash['score']
+      self.object = hash['object']
 
       self.provider = create_provider(hash['provider'])
       self.original_record = create_original_record(hash['originalRecord'])

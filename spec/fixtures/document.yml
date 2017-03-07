@@ -35,3 +35,4 @@ originalRecord:
   'type': ["text", "Book"]
   'creator': Hill, A. J.
 'publisher': Wooster [Ohio]Republican steam press print,1875.
+'object': 'http://example.com/object/thumbnail'
